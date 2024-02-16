@@ -1,6 +1,6 @@
 /* Add your CSS styles here */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
 body {
     max-width: 800px; 
@@ -13,6 +13,7 @@ header {
     background-size: contain;
     background-position: center; 
     background-repeat: no-repeat;
+    background-color: #FF0000;
     color: #ffffff;
     padding: 100px; 
     text-align: center;
@@ -21,8 +22,8 @@ header {
 }
 .firstBody{
     font-family: 'Inter', sans-serif;
-    font-size: 16px; /* Font size is 16 pixels */
-    font-weight: bold; /* Font weight is bold */
+    font-size: 16px; 
+    font-weight: bold; 
     color:#FF0000;
     margin-bottom: 80px;
 }
@@ -43,9 +44,132 @@ header {
 
 .singleImage img {
     max-width: 100%;
-    margin-bottom: 400px;
+    margin-bottom: 300px;
 }
 
+.gradient-box {
+    width: 600px; 
+    padding: 50px; 
+    margin: 0 auto;
+    background: linear-gradient(to bottom, rgba(248, 136, 136, 0.8), rgba(250, 247, 247, 0.2));
+    border-radius: 10px; 
+    margin-bottom: 20px;
+}
+
+.content {
+    font-family: Inter;
+    text-align: center; 
+    color: #000000; 
+    font-weight: bold;
+}
+
+.content button {
+    background-color: #ff0000; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.gradientText {
+    color: #FF0000;
+}
+
+.container {
+    display: flex;
+}
+
+.left-column, .middle-column, .right-column {
+    flex: 1; 
+    padding: 20px; 
+}
+
+.left-column {
+    text-align: left;
+}
+
+.left-column h6 {
+    color:#ff0000;
+    font-family: Inter;
+}
+
+.left-column h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+}
+.middle-column {
+    text-align: center; 
+}
+
+.middle-column img {
+    max-width: 75%; 
+    height: auto; 
+    padding: 15px;
+    border: 7px solid #ff0000;
+    border-radius: 50%;
+}
+
+.right-column {
+    text-align: left;
+}
+
+.right-column h2 {
+    color: #FF0000;
+    font-family: inter;
+}
+
+.right-column img {
+    width: 40%;
+    height: auto;
+}
+
+.TextContainer {
+    font-family: inter;
+    margin-bottom: 30px;
+}
+.TextContainer h1 {
+    font-family: merriweather;
+    font-weight: bolder;
+}
+.TextContainer span {
+    color: #FF0000;
+}
+
+.image-container {
+    position: relative;
+    height: 400px;
+}
+
+.full-width {
+    height: 300px;
+    width: auto;
+    position: absolute;
+    right: 0;
+}
+
+.horizontal-bottom {
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 100px;
+    width: 100%;
+}
+
+.lower-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+}
+
+.lower-right {
+    position: absolute;
+    bottom: 40%;
+    right: 27%;
+    width: 20%;
+}
 
 main {
     text-align: center;
@@ -55,4 +179,5 @@ footer {
     background-color: black;
     color: white;
     padding: 20px;
+
   }
