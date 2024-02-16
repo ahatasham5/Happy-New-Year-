@@ -1,4 +1,6 @@
 /* Add your CSS styles here */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 
 body {
     max-width: 800px; 
@@ -15,8 +17,36 @@ header {
     padding: 100px; 
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
+.firstBody{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px; /* Font size is 16 pixels */
+    font-weight: bold; /* Font weight is bold */
+    color:#FF0000;
+    margin-bottom: 80px;
+}
+#discount {
+    font-size: 35px;
+    margin: 30px;
+}
+#categories {
+    font-size: 25px;
+    color:black;
+}
+
+.singleImage {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.singleImage img {
+    max-width: 100%;
+    margin-bottom: 400px;
+}
+
+
 main {
     text-align: center;
 }
