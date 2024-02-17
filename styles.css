@@ -278,7 +278,21 @@ footer {
 .footerDiv {
     display: flex;
     justify-content: space-between;
-    padding: 40px;
+    padding: 100px;
+    font-family: Inter;
+}
+#contact {
+    padding-right: 80px;
 }
 
+#contact section{
+    display: flex;
+    height: 10px;
+    width: auto;
+    align-items: center;
+    padding: 10px;
+}
 
+#contact img {
+    padding: 10px;
+}
